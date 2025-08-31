@@ -1,0 +1,23 @@
+Tool,Purpose,Setup Steps
+Tortoise TTS,"High-quality, expressive TTS engine. Ideal for character voiceovers like Cave Johnson.","1. Clone the repo:
+   git clone https://github.com/neonbjb/tortoise-tts.git
+2. Change directory:
+   cd tortoise-tts
+3. (Optional but recommended) Create a virtual environment:
+   python -m venv venv && source venv/bin/activate  # On Windows: venv\Scripts\activate
+4. Install dependencies:
+   pip install -r requirements.txt
+5. Download the pretrained models and voices (follow GitHub instructions)
+6. Run voice clone test (after preparing dataset):
+   python tortoise/do_tts.py --text ""Your script here"" --voice cave"
+XTTS2 + Coqui TTS,"Fast, real-time capable TTS with fewer system requirements. Good for quick responses.","1. Clone the repo:
+   git clone https://github.com/coqui-ai/TTS.git
+2. Change directory:
+   cd TTS
+3. (Optional but recommended) Create a virtual environment:
+   python -m venv venv && source venv/bin/activate  # On Windows: venv\Scripts\activate
+4. Install dependencies:
+   pip install -r requirements.txt
+5. Download XTTS2 pretrained model and follow XTTS2 setup (from Coqui docs)
+6. Run TTS with XTTS2:
+   python TTS/bin/synthesize.py --text ""Hello world"" --speaker_wav cave_sample.wav --model_path path_to_xtts2_model"

@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs / runtime outputs
+logs/
+blobs/
+memory/
+models/
+*.log
+
+# Streamlit
+.streamlit/
+
+# Credentials and tokens
+*.json
+*.env
+token.json
+credentials.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temp folders
+New folder/

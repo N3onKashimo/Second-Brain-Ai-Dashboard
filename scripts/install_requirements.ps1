@@ -1,0 +1,1 @@
+pip install llama-index chromadb langchain streamlit tiktoken openai
