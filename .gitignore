@@ -24,3 +24,6 @@ Thumbs.db
 
 # Temp folders
 New folder/
+
+# Windows shortcuts
+*.lnk
